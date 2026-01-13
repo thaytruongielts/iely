@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 
 export async function explainAnswer(question: string, transcript: string, correctAnswer: string): Promise<string> {
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `
