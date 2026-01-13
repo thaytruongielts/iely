@@ -1,0 +1,7 @@
+{
+  "name": "IELTS Yellow Listening Master",
+  "description": "A comprehensive IELTS listening practice application featuring interactive quizzes, instant feedback, and AI-powered answer explanations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
